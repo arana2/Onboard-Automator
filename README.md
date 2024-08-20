@@ -1,9 +1,6 @@
 # Onboard-Automator
 This project aims to streamline and automate the onboarding process for new employees into Azure Entra ID (formerly known as Azure Active Directory), while also automatically assigning the necessary Azure resources required by the new employee.
 
-**Project Workflow**
-Image goes here
-
 **Detailed Description**
 
 This project automates the onboarding process for new employees. It begins when a new employee submits their information through a web form via Logic Apps. This triggers the Azure Logic App to create a new user in Entra ID and assign them to the Information Technology group. The Information Technology group will have Local Administrator access to (2) virtual machines.
